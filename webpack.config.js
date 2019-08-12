@@ -33,7 +33,7 @@ module.exports = [
           },
         },
         {
-          test: /\.css|\.s(c|a)ss$/,
+          test: /\.css|svg|\.s(c|a)ss$/,
           use: [
             {
               loader: 'lit-scss-loader',
